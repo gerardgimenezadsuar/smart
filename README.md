@@ -3,7 +3,7 @@
 
 Let's look at an example of how it works, make sure to have the *devtools* package installed:
 
-    devtools::install_github("gerardgimenezadsuar/smart")
+    devtools::install_github("gerardgimenezadsuar/smartables")
 
 And don't forget to load the downloaded package **smartables**:
 
