@@ -6,20 +6,20 @@
 \usage{
 create_table(
   df,
-  stratify_by = NULL,
   var_removed = NULL,
   var_removed_strat = NULL,
+  var_desc = NULL,
   by_row = F
 )
 }
 \arguments{
 \item{df}{Data frame to be summarized as a table.}
 
-\item{stratify_by}{Variable to create stratified tables from.}
-
 \item{var_removed}{Variables to be removed from the overall summary.}
 
 \item{var_removed_strat}{Variables to be removed from the stratified summary.}
+
+\item{var_desc}{Variable to create stratified tables from.}
 
 \item{by_row}{Logical. If TRUE it will display the \% for each stratified group by row. By default, the \% by column is displayed.}
 }

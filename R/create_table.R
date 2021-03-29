@@ -11,6 +11,8 @@
 #' @param var_removed_strat Variables to be removed from the stratified summary.
 #' @param by_row Logical. If TRUE it will display the % for each stratified group by row. By default, the % by column is displayed.
 #' @return A list containing at most two data frames: one for the overall summary table, another for the stratified summary table.
+#'
+#' @import data.table
 
 #' @export
 create_table <- function(df, var_removed = NULL, var_removed_strat = NULL, var_desc = NULL, by_row = F){
