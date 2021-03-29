@@ -1,5 +1,5 @@
 # smartables R package
-### Create automatically, ready-to-publish summary statistical tables from a data frame. 
+### Automatically create ready-to-publish summary statistical tables from a data frame. 
 
 Let's look at an example of how it works, make sure to have the *devtools* package installed:
 
