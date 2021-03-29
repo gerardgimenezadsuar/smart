@@ -6,7 +6,7 @@
 #' variables that are not of interest for either the overall summary or the stratified one.
 #'
 #' @param df Data frame to be summarized as a table.
-#' @param var_desc Variable to create stratified tables from.
+#' @param stratify_by Variable to create stratified tables from.
 #' @param var_removed Variables to be removed from the overall summary.
 #' @param var_removed_strat Variables to be removed from the stratified summary.
 #' @param by_row Logical. If TRUE it will display the % for each stratified group by row. By default, the % by column is displayed.
@@ -15,7 +15,7 @@
 #' @import data.table
 
 #' @export
-create_table <- function(df, var_removed = NULL, var_removed_strat = NULL, var_desc = NULL, by_row = F){
+create_table <- function(df, stratify_by = NULL, var_removed = NULL, var_removed_strat = NULL,  by_row = F){
   `%>%` <- magrittr::`%>%`
   j <- as.data.frame(df)
   j <- j %>% dplyr::select(-all_of(var_removed))
@@ -64,10 +64,10 @@ create_table <- function(df, var_removed = NULL, var_removed_strat = NULL, var_d
   ## Script for the stratified table
   #########################################################
 
-  if (is.null(var_desc) != T) {
+  if (is.null(stratify_by) != T) {
     w <- as.data.frame(df)
-    des <- var_desc
-    assign(des,var_desc)
+    des <- stratify_by
+    assign(des,stratify_by)
     strat <- sort(unique(w[,des]))
     long <- length(unique(w[,des]))
     datalist_m <- list()
