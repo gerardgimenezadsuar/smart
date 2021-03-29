@@ -27,3 +27,6 @@ To get the overall summary, just access the first item of the list:
 And for the stratified table, access the second one:
 
     output_df[2]
+
+## *modeltable* function:
+This function loads the resulting output of either INLA, GLM or HR models, and returns a ready-to-publish summary table from it.
