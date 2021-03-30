@@ -15,11 +15,11 @@ This first version contains two functions: **create_table** and **modeltable**.
 
 Let's start with an example of how the first one works. We will be using the iris dataset, which is preloaded with R. We want to get both a statistical summary of each variable and also a stratified table by the variable *"Species"*. We can simply type:
 
-    create_table(iris, var_desc = "Species")
+    create_table(iris, stratify_by = "Species")
     
 Since the function returns a list containing both data frames, you will need to store the output on a variable:
 
-    output_df <- create_table(iris, var_desc = "Species")
+    output_df <- create_table(iris, stratify_by = "Species")
 
 To get the overall summary, just access the first item of the list:
 
