@@ -50,11 +50,12 @@ Once the *result* object is created, we can simply use *smartables* function **m
     modeltable(result, "INLA")
     
 The output is the following table:
+
 ![Screen Shot 2021-04-07 at 8 55 13 AM](https://user-images.githubusercontent.com/48365704/113823556-12623980-977f-11eb-93ef-0d331ede6ce0.png)
 
 This is just a particular example with an INLA model, however, the same procedure should be used to obtain a summary table for either *generalized linear models (GLM)* or *Hazard ratio models (HR)*.
 
-## Acknoledgements
+## Acknowledgements
 
 This package has been created by GRECS (Research group in Statistics, Econometry and Health) from the University of Girona. I thank Prof. Marc Saez and Prof. Maria Antonia Barceló for their insightful comments during its development.
 
