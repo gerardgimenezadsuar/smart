@@ -53,7 +53,7 @@ The output is the following table:
 
 ![Screen Shot 2021-04-07 at 8 55 13 AM](https://user-images.githubusercontent.com/48365704/113823556-12623980-977f-11eb-93ef-0d331ede6ce0.png)
 
-This is just a particular example with an *Integrated Nested Laplace Approximation model (INLA)*, however, the same procedure should be used to obtain a summary table for either *generalized linear models (GLM)* or *hazard ratio models (HR)*.
+This is just a particular example with an *Integrated Nested Laplace Approximation model (INLA)*, however, the same procedure should be used to obtain a summary table for either *Generalized Linear Models (GLM)* or *Hazard Ratio models (HR)*.
 
 ## Acknowledgements
 
