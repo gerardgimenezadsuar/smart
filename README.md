@@ -57,6 +57,6 @@ This is just a particular example with an INLA model, however, the same procedur
 
 ## Acknowledgements
 
-This package has been created by GRECS (Research group in Statistics, Econometry and Health) from the University of Girona. I thank Prof. Marc Saez and Prof. Maria Antonia Barceló for their insightful comments during its development.
+This package has been created by GRECS (Research group in Statistics, Econometrics and Health) from the University of Girona. I thank Prof. Marc Saez and Prof. Maria Antonia Barceló for their insightful comments during its development.
 
     
